@@ -1,3 +1,8 @@
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 #allContent {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
@@ -18,6 +23,9 @@
 #logo {
     background: url(img/purple-bg.jpg);
     width: 100%;
+    font-size: 5em;
+    font-weight: bold;
+    
 }
 
 #omg {
@@ -27,26 +35,69 @@
 #aboutUs {
     width: 100%;
 }
+#aboutUs p {
+    font-size: 1.5em;
+}
 
 #latestWork {
     width: 100%;
 }
 
-.imageBox {
-    float: left;
+#imageBox {
+    width: 100%
+}
+#project1 {
+    background-image: url(img/1-cocktail.jpg);
+    width: 50%;
+    float:left;
+    opacity: 1.0;
+}
+#project2 {
+    background-image: url(img/2-disco.jpg);
+    width: 50%;
+    float:left;
+    opacity: 1.0;
+}
+#project3 {
+    background-image: url(img/3-bookstore.jpg);
+    width: 50%;
+    float:left;
+    opacity: 1.0;
+}
+#project4 {
+    background-image: url(img/4-traffic.jpg);
+    width: 50%;
+    float:left;
+    
+}
+#project5 {
+    background-image: url(img/5-concert.jpg);
+    width: 50%;
+    float:left;
+    
+}
+#project6 {
+    background-image: url(img/6-nightlife.jpg);
+    width: 50%;
+    float:left;
+}
+#project7 {
+    background-image: url(img/7-bar.jpg);
+    width: 50%;
+    float:left;
 }
 
-.imageBox img {
-    opacity: 1.0;
-    width: 50%;
-}
-.imageBox img {
-    opacity: 0.5;
-    width: 50%;
+
+
+
+
+#imageBox background-image:hover {
+  opacity: 0.5;
 }
 
 #footer {
     width: 100%;
     float: left;
     clear: left;
+    font-size: 1.5em;
 }
