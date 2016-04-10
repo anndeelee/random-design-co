@@ -17,7 +17,9 @@ h2 {
     padding: 20px 0px 20px 20px;
     font-size: 1.5em;
     font-weight: bold;
-    z-index: 1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 
 #logo {
@@ -46,53 +48,21 @@ h2 {
 #imageBox {
     width: 100%
 }
-#project1 {
-    background-image: url(img/1-cocktail.jpg);
-    width: 50%;
-    float:left;
-    opacity: 1.0;
-}
-#project2 {
-    background-image: url(img/2-disco.jpg);
-    width: 50%;
-    float:left;
-    opacity: 1.0;
-}
-#project3 {
-    background-image: url(img/3-bookstore.jpg);
-    width: 50%;
-    float:left;
-    opacity: 1.0;
-}
-#project4 {
-    background-image: url(img/4-traffic.jpg);
-    width: 50%;
-    float:left;
-    
-}
-#project5 {
-    background-image: url(img/5-concert.jpg);
-    width: 50%;
-    float:left;
-    
-}
-#project6 {
-    background-image: url(img/6-nightlife.jpg);
-    width: 50%;
-    float:left;
-}
-#project7 {
-    background-image: url(img/7-bar.jpg);
-    width: 50%;
-    float:left;
+.imgProject {
+  opacity: 1.0;
+  width: 50%;
+  display:block;
+  float:left;
 }
 
-
-
-
-
-#imageBox background-image:hover {
+.imgProject:hover {
   opacity: 0.5;
+  width: 50%;
+}
+
+#imageBox h2 {
+    color: #000;
+    
 }
 
 #footer {
