@@ -1,0 +1,52 @@
+#allContent {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+} 
+
+#header {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    padding: 20px 0px 20px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    z-index: 1;
+}
+
+#logo {
+    background: url(img/purple-bg.jpg);
+    width: 100%;
+}
+
+#omg {
+    
+}
+
+#aboutUs {
+    width: 100%;
+}
+
+#latestWork {
+    width: 100%;
+}
+
+.imageBox {
+    float: left;
+}
+
+.imageBox img {
+    opacity: 1.0;
+    width: 50%;
+}
+.imageBox img {
+    opacity: 0.5;
+    width: 50%;
+}
+
+#footer {
+    width: 100%;
+    float: left;
+    clear: left;
+}
