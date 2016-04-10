@@ -1,6 +1,7 @@
 h2 {
     font-size: 1.5em;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 #allContent {
@@ -26,16 +27,27 @@ h2 {
     background: url(img/purple-bg.jpg);
     width: 100%;
     font-size: 5em;
-    font-weight: bold;
-    
+    font-weight: bold;    
+    text-align: center;
+    padding-top: 130px;
 }
 
 #omg {
+    width: 200px;
+    color: #000;
+    border: black thick solid;
+    text-align: center;
+    padding: 20px;
     
+}
+
+section {
+    padding: 50px 20px 25px 20px;
 }
 
 #aboutUs {
     width: 100%;
+    border: thin #d4d4d4 solid;
 }
 #aboutUs p {
     font-size: 1.5em;
@@ -43,26 +55,35 @@ h2 {
 
 #latestWork {
     width: 100%;
+    border: thin #d4d4d4 solid;
 }
 
-#imageBox {
+#boxes {
     width: 100%
 }
-.imgProject {
-  opacity: 1.0;
-  width: 50%;
-  display:block;
-  float:left;
+.imageBox {
+    width: 50%;
+    float: left;
+    position: relative;
 }
 
-.imgProject:hover {
-  opacity: 0.5;
-  width: 50%;
+.imageBox img {
+    position: relative;
+    width: 100%
 }
 
-#imageBox h2 {
-    color: #000;
+.imageBox h2 {
+    color: #fff;
+    text-align: center;
+    opacity: 1.0;
+    top: 25%;
+    left:25%;
+    width: 50%;
     
+}
+.imageBox h2:hover {
+  opacity: 0.5;
+  color: #000;
 }
 
 #footer {
@@ -70,4 +91,5 @@ h2 {
     float: left;
     clear: left;
     font-size: 1.5em;
+    border: thin #d4d4d4 solid;
 }
