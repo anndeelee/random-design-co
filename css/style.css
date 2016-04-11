@@ -50,12 +50,9 @@ h2 {
     background-color: rgba(0,0,0,0);
     width: 250px;
     color: #fff;
-    border: white thick solid;
+    border: white 3px solid;
     text-align: center;
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 100px;  
-    
-    
+    margin-bottom: 100px;     
 }
 
 #omg:hover {
@@ -105,7 +102,7 @@ section {
 
 .imageText {
     position: absolute;
-    top: 25%;
+    top: 35%;
     left:25%;
     width: 50%;
     text-align: center;
