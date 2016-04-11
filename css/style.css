@@ -32,6 +32,7 @@ h2 {
     margin-right: 40px;
 }
 
+
 .logo {
     background: url(../img/purple-bg.jpg);
     background-size: cover;
@@ -41,6 +42,7 @@ h2 {
     text-align: center;
     padding-top: 130px;
     color: #fff;
+    clear: both;
 }
 .logo p {
     line-height: 1em;
@@ -48,7 +50,8 @@ h2 {
 
 .omg {
     background-color: rgba(0,0,0,0);
-    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #fff;
     border: white 3px solid;
     text-align: center;
