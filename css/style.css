@@ -14,8 +14,8 @@ h2 {
     background-color: #000;
     color: #fff;
     width: 100%;
-    height: 50px;
-    padding: 20px 0px 20px 20px;
+    height: 40px;
+    padding: 20px 20px 20px 20px;
     font-size: 1.5em;
     font-weight: bold;
     position: fixed;
@@ -23,22 +23,48 @@ h2 {
     left: 0px;
 }
 
+#headerTitle {
+    float: left;
+    width: 300px;
+}
+.fa-bars {
+    float: right;
+    margin-right: 40px;
+}
+
 #logo {
-    background: url(img/purple-bg.jpg);
+    background: url(../img/purple-bg.jpg);
+    background-size: cover;
     width: 100%;
     font-size: 5em;
     font-weight: bold;    
     text-align: center;
     padding-top: 130px;
+    color: #fff;
+}
+#logo p {
+    line-height: 1em;
 }
 
 #omg {
-    width: 200px;
-    color: #000;
-    border: black thick solid;
+    background-color: rgba(0,0,0,0);
+    width: 250px;
+    color: #fff;
+    border: white thick solid;
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 100px;  
     
+    
+}
+
+#omg:hover {
+    color: black;
+    background-color: white;
+}
+
+#omg h2 {
+    font-size: .4em;
 }
 
 section {
@@ -62,28 +88,36 @@ section {
     width: 100%
 }
 .imageBox {
-    width: 50%;
+    width: 48%;
     float: left;
     position: relative;
+    margin: 1px;    
 }
 
 .imageBox img {
     position: relative;
-    width: 100%
+    width: 100%;
+    opacity: 0.5;
+}
+.imageBox img:hover {
+    opacity: 1.0;
 }
 
-.imageBox h2 {
-    color: #fff;
-    text-align: center;
-    opacity: 1.0;
+.imageText {
+    position: absolute;
     top: 25%;
     left:25%;
     width: 50%;
+    text-align: center;
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
     
 }
-.imageBox h2:hover {
-  opacity: 0.5;
-  color: #000;
+
+.imageText:hover {
+  color: #fff;
 }
 
 #footer {
@@ -92,4 +126,7 @@ section {
     clear: left;
     font-size: 1.5em;
     border: thin #d4d4d4 solid;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
 }
